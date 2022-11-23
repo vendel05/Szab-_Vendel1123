@@ -11,4 +11,8 @@ A plusz menüpontok
 6. Beírjuk a lövegnek a méretét, megjelennek a tankok amik ezt a löveget használják
 7. Beírjuk a tank nevét, megjelenik hogy melyik országból származik
 8. Beírjuk az országot, megjelenik hogy mennyi tank van a listában ami abból az országból származik.
- 
+
+Ha az adat nem megfelelő, mondjuk túl nagy vagy kicsi, akkor lenne rá rendes válasz, hogy az adat miért nem megfelelő.
+Kommunikáció a felhasználóval
+
+
