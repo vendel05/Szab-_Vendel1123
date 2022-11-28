@@ -1,4 +1,5 @@
 from os import system
+from data import tanks
 def menu():
     system('cls')
     print('0 - Kilépés')
@@ -11,3 +12,10 @@ def menu():
     print('7 - Tank származási helye')
     print('8 - Hány tank származik a bizonyos országból')
     return input('Válasszon a menüpontok közül!')
+
+def kiÍr():
+    system('cls')
+    print('-----Tankok-----\n')
+    for tank in tanks:
+        print(f'\t{tank}')
+    input()
