@@ -3,10 +3,10 @@ from os import system
 
 choice=''
 while choice!='0':
-    choice=menü()
+    choice=menu()
     if choice=='1':
-        kiÍr()
-    elif choice=='2':
         pass
+    elif choice=='2':
+        kiÍr()
     elif choice=='3':
         pass
