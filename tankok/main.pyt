@@ -1,10 +1,11 @@
-from functions import *
+from functions import menü
+from os import system
 
 choice=''
 while choice!='0':
-    choice=menu()
+    choice=menü()
     if choice=='1':
-        pass
+        kiÍr()
     elif choice=='2':
         pass
     elif choice=='3':

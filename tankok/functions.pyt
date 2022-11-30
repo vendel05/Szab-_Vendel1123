@@ -1,5 +1,5 @@
-from os import system
 from data import tanks
+from os import system
 def menu():
     system('cls')
     print('0 - Kilépés')
